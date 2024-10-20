@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300px" src=".github/assets/logo_2.png">
+    <img width="250px" src=".github/assets/logo_2.png">
 </p>
 
 <p align="center">
@@ -12,8 +12,6 @@
 
 <p align="center">
   <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
-Este projeto é um desafio de Prompt Engineer, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
-O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 </p>
 
 ## 📋 Índice
@@ -24,14 +22,13 @@ O projeto deve ser feito utilizando as boas práticas de prompt engineer.
 - [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
 - [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
 - [🛠️ Regras de negócio](#️-regras-de-negócio)
-- [📖 Material de Apoio](#-material-de-apoio)
 - [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
 
 ---
 
 ## 📝 Introdução
 
-Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
+Este é um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornece informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gera um plano de treino ideal com base nessas informações.
 
 ---
 
@@ -102,7 +99,7 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ---
 
-## 🛠️ Regras de negócio
+## 🛠️ Regras 
 
 1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
 2. **Determine quantos dias por semana você pode treinar** e escolha o tipo de treino mais adequado.
@@ -111,13 +108,5 @@ A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão 
 
 ---
 
-## 📖 Material de Apoio
-
-Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
-
-- [Fundamentos de Engenharia de prompt](https://elidianaandrade.gitbook.io/fundamentos-de-engenharia-de-prompts-com-claude-3)
-- [Boas práticas de prompt](https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1)
-
----
-
 ## 🎯 Prompt de Resposta Proposto
+  Com base nas informações fornecidas crie um modelo de treino para o biotipo ectomorfo.
